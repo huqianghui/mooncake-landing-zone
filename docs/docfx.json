@@ -1,0 +1,68 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "src": "_bread",
+        "dest": "bread",
+        "files": [
+          "**/*.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/azure/cloud-adoption-framework/_bread/toc.json",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/cloud-adoption-framework",
+      "feedback_product_url": "https://azure-architecture.uservoice.com/forums/918625-architecture-guidance",
+      "ms.service": "cloud-adoption-framework",
+      "titleSuffix": "Cloud Adoption Framework",
+      "brand": "azure",
+      "uhfHeaderId": "azure",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "architecture-center",
+          "folder_relative_path_in_docset": "./"
+        }
+      }
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "cloud-adoption-framework",
+    "markdownEngineName": "markdig"
+  }
+}
